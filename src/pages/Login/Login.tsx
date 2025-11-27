@@ -90,7 +90,7 @@ const Login = () => {
           name="username"
           id=""
           className=" focus:border-gray-500 border-2 focus:outline-none border-gray-700 text-blue-200 bg-gray-800/50 px-4 rounded-xl h-12 w-96 "
-          placeholder="Username"
+          placeholder="Username:admin"
         />
         <div className="relative">
           <input
@@ -104,7 +104,7 @@ const Login = () => {
             className="relative focus:border-gray-500 border-2
              focus:outline-none   border-gray-700 text-blue-200
               bg-gray-800/50 px-4 rounded-xl h-12 w-96 "
-            placeholder="Password"
+            placeholder="Password:admin"
           />
           {formData.password.length > 0 &&
             (showPassword ? (
